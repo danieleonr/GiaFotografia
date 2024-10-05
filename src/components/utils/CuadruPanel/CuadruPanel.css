@@ -1,0 +1,14 @@
+.cuadruple-panel {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-auto-rows: 1fr;
+  row-gap: 5vh;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .cuadruple-panel {
+    grid-template-columns: repeat(4, 15vw);
+    gap: 6vw;
+    justify-content: center;
+  }
+}

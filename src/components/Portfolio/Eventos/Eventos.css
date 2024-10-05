@@ -1,0 +1,16 @@
+.grid-eventos {
+  display: grid;
+  grid-template-columns: repeat(1, 90vw);
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  gap: 1vh;
+}
+.grid-eventos div {
+  min-height: 35vh;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .grid-eventos {
+    grid-template-columns: repeat(6, 11vw);
+  }
+}

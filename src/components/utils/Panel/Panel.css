@@ -1,0 +1,11 @@
+.contenedor-imagen {
+  overflow: hidden;
+}
+.imagen {
+  height: 80vh;
+  transform: scale(1);
+  transition: 1s;
+}
+.panel:hover .imagen {
+  transform: scale(1.2);
+}

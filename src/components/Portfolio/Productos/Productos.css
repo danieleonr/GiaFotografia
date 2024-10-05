@@ -1,0 +1,16 @@
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(1, 90vw);
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  gap: 1vh;
+}
+.grid-productos div {
+  min-height: 30vh;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .grid-productos {
+    grid-template-columns: repeat(6, 11vw);
+  }
+}

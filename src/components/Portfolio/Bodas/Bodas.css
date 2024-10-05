@@ -1,0 +1,25 @@
+.bodas .panel {
+  width: 90%;
+}
+.bodas .imagen {
+  height: 70vh;
+}
+.grid-boda {
+  display: grid;
+  grid-template-columns: repeat(1, 90vw);
+  grid-auto-rows: 1fr;
+  gap: 2vh;
+  justify-content: center;
+}
+.grid-boda div {
+  min-height: 50vh;
+  height: 100%;
+}
+@media (min-width: 1200px) {
+  .bodas .panel {
+    width: 20%;
+  }
+  .grid-boda {
+    grid-template-columns: repeat(6, 11vw);
+  }
+}

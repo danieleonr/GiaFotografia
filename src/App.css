@@ -1,0 +1,103 @@
+@font-face {
+  font-family: town10;
+  src: url("./assets/fuentes/9811town10.woff2");
+}
+@font-face {
+  font-family: niramit;
+  src: url("./assets/fuentes/Niramit-Regular.ttf");
+}
+
+* {
+  font-family: niramit;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+nav *,
+button {
+  font-family: town10 !important;
+}
+
+h3 {
+  font-size: 2em;
+}
+p,
+.nav-link {
+  font-size: 1.3em;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+main {
+  padding-bottom: 5vh;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.imagen-fondo {
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: coral;
+}
+
+.large-title {
+  font-size: 280%;
+}
+.photos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 30vh);
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  gap: 1vh;
+}
+.photos-grid div {
+  height: 30vh;
+  background-color: aquamarine;
+}
+@media (min-width: 768px) {
+  .large-title {
+    letter-spacing: 1vw;
+  }
+
+  .dos-columnas {
+    grid-column: span 2;
+  }
+  .dos-filas {
+    grid-row: span 2;
+  }
+  .tres-columnas {
+    grid-column: span 3;
+  }
+  .tres-filas {
+    grid-row: span 3;
+  }
+  .cuatro-columnas {
+    grid-column: span 4;
+  }
+  .cinco-columnas {
+    grid-column: span 5;
+  }
+  .seis-columnas {
+    grid-column: span 6;
+  }
+}

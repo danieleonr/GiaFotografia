@@ -1,0 +1,9 @@
+.imagen-nosotros {
+  height: 70vh;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .imagen-nosotros {
+    width: 50%;
+  }
+}

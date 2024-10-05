@@ -1,0 +1,28 @@
+#portada-inicio {
+  background-image: url("../../assets/PORTADA WEB MÓVIL.png");
+}
+@media (min-width: 992px) {
+  #portada-inicio {
+    background-image: url("../../assets/PORTADA WEB.jpg");
+  }
+  .menu-portada-inicio {
+    background-color: transparent !important;
+    position: absolute !important;
+    width: 100% !important;
+    margin-top: 5vh;
+  }
+  .menu-portada-inicio .navbar-brand {
+    display: none;
+  }
+  .menu-portada-inicio .nav-link {
+    font-size: 1.5em;
+    margin-right: 5vh;
+    width: fit-content;
+  }
+  .menu-portada-inicio .nav-link:nth-of-type(4) {
+    margin-right: 10vh;
+  }
+  .menu-portada-inicio .dropdown .nav-link {
+    margin: auto;
+  }
+}

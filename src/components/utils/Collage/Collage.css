@@ -1,0 +1,10 @@
+#collage-container,
+#collage {
+  height: 60vh;
+}
+#collage {
+  width: 100%;
+  filter: brightness(0.4);
+  position: absolute;
+  z-index: -1;
+}
