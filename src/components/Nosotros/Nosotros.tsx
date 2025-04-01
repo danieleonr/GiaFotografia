@@ -1,15 +1,15 @@
-import Header from "../Header";
-import { motion } from "framer-motion";
-import maribel from "../../assets/NOSOTROS/Maribel.jpg";
-import xanti from "../../assets/NOSOTROS/Xanti.jpg";
-import milca from "../../assets/NOSOTROS/Milca.jpg";
-import "./Nosotros.css";
-import Boton from "../utils/Boton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
+import maribel from "../../assets/NOSOTROS/Maribel.jpg";
+import milca from "../../assets/NOSOTROS/Milca.jpg";
+import xanti from "../../assets/NOSOTROS/Xanti.jpg";
+import Header from "../Header";
+import Boton from "../utils/Boton";
+import "./Nosotros.css";
 
 const AboutMeComponent = () => {
   const ENLACE_DESARROLLO = "https://formspree.io/f/mnnayove";
@@ -199,9 +199,16 @@ const AboutMeComponent = () => {
               />
             </Link>
 
-            <Link to="tel:650510300" target="_blank">
+            <Link to="tel:614419257" target="_blank">
               <Boton
                 icono={<FontAwesomeIcon icon={fas.faPhone} />}
+                className="btn-dark rounded-circle fs-5"
+              />
+            </Link>
+
+            <Link to="https://wa.me/34614419257" target="_blank">
+              <Boton
+                icono={<FontAwesomeIcon icon={fab.faWhatsapp} />}
                 className="btn-dark rounded-circle fs-5"
               />
             </Link>
